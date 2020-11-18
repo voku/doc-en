@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>curl_strerror</methodname>
+   <type class="union"><type>string</type><type>null</type></type><methodname>curl_strerror</methodname>
    <methodparam><type>int</type><parameter>errornum</parameter></methodparam>
   </methodsynopsis>
   <para>

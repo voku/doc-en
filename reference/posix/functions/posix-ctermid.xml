@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>posix_ctermid</methodname>
-   <void/>
+   <type class="union"><type>string</type><type>false</type></type><methodname>posix_ctermid</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Generates a <type>string</type> which is the pathname for the current 

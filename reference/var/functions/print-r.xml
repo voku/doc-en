@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>print_r</methodname>
+   <type class="union"><type>string</type><type>true</type></type><methodname>print_r</methodname>
    <methodparam><type>mixed</type><parameter>expression</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>return</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>

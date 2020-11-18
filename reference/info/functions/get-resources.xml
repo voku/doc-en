@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>get_resources</methodname>
+   <type>resource[]</type><methodname>get_resources</methodname>
    <methodparam choice="opt"><type>string</type><parameter>type</parameter></methodparam>
   </methodsynopsis>
   <para>

@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>ldap_exop</methodname>
+   <type class="union"><type>resource</type><type>bool</type></type><methodname>ldap_exop</methodname>
    <methodparam><type>resource</type><parameter>link</parameter></methodparam>
    <methodparam><type>string</type><parameter>reqoid</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>reqdata</parameter><initializer>&null;</initializer></methodparam>

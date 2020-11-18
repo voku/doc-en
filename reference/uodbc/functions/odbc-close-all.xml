@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>void</type><methodname>odbc_close_all</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    <function>odbc_close_all</function> will close down all

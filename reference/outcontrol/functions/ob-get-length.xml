@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>ob_get_length</methodname>
-   <void/>
+   <type class="union"><type>int</type><type>false</type></type><methodname>ob_get_length</methodname>
+   <void />
   </methodsynopsis>
   <para>
    This will return the length of the contents in the output buffer, in bytes.

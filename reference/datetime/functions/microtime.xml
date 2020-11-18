@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>microtime</methodname>
+   <type class="union"><type>string</type><type>float</type></type><methodname>microtime</methodname>
    <methodparam choice="opt"><type>bool</type><parameter>getAsFloat</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>

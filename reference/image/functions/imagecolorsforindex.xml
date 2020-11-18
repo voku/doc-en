@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>imagecolorsforindex</methodname>
+   <type class="union"><type>array</type><type>false</type></type><methodname>imagecolorsforindex</methodname>
    <methodparam><type>resource</type><parameter>image</parameter></methodparam>
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
   </methodsynopsis>

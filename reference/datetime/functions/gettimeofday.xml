@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>gettimeofday</methodname>
+   <type class="union"><type>int[]</type><type>float</type></type><methodname>gettimeofday</methodname>
    <methodparam choice="opt"><type>bool</type><parameter>returnFloat</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>

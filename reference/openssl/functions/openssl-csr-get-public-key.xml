@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>resource</type><methodname>openssl_csr_get_public_key</methodname>
+   <type class="union"><type>resource</type><type>false</type></type><methodname>openssl_csr_get_public_key</methodname>
    <methodparam><type>mixed</type><parameter>csr</parameter></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>use_shortnames</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>

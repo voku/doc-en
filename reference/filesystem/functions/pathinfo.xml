@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>pathinfo</methodname>
+   <type class="union"><type>string[]</type><type>string</type></type><methodname>pathinfo</methodname>
    <methodparam><type>string</type><parameter>path</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>options</parameter><initializer>PATHINFO_DIRNAME | PATHINFO_BASENAME | PATHINFO_EXTENSION | PATHINFO_FILENAME</initializer></methodparam>
   </methodsynopsis>

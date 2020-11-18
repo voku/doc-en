@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>gc_status</methodname>
+   <type>int[]</type><methodname>gc_status</methodname>
    <void />
   </methodsynopsis>
   <para>

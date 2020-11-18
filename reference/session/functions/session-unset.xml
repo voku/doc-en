@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>session_unset</methodname>
-   <void/>
+   <type class="union"><type>void</type><type>bool</type></type><methodname>session_unset</methodname>
+   <void />
   </methodsynopsis>
   <para>
    The <function>session_unset</function> function frees all session variables

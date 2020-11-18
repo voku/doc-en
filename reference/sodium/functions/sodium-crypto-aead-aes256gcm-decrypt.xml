@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>sodium_crypto_aead_aes256gcm_decrypt</methodname>
+   <type class="union"><type>string</type><type>false</type></type><methodname>sodium_crypto_aead_aes256gcm_decrypt</methodname>
    <methodparam><type>string</type><parameter>ciphertext</parameter></methodparam>
    <methodparam><type>string</type><parameter>ad</parameter></methodparam>
    <methodparam><type>string</type><parameter>nonce</parameter></methodparam>

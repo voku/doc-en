@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>iptcembed</methodname>
+   <type class="union"><type>string</type><type>bool</type></type><methodname>iptcembed</methodname>
    <methodparam><type>string</type><parameter>iptcdata</parameter></methodparam>
    <methodparam><type>string</type><parameter>jpeg_file_name</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>spool</parameter><initializer>0</initializer></methodparam>

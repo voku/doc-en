@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>ob_get_flush</methodname>
-   <void/>
+   <type class="union"><type>string</type><type>false</type></type><methodname>ob_get_flush</methodname>
+   <void />
   </methodsynopsis>
   <para>
    <function>ob_get_flush</function> flushes the output buffer, return

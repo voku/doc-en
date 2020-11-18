@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>string</type><methodname>com_create_guid</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Generates a Globally Unique Identifier (GUID).

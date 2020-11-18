@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>mb_convert_encoding</methodname>
+   <type>string</type><methodname>mb_convert_encoding</methodname>
    <methodparam><type>mixed</type><parameter>val</parameter></methodparam>
    <methodparam><type>string</type><parameter>to_encoding</parameter></methodparam>
    <methodparam choice="opt"><type>mixed</type><parameter>from_encoding</parameter><initializer>mb_internal_encoding()</initializer></methodparam>

@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>call_user_func</methodname>
+   <type class="union"><type>mixed</type><type>false</type></type><methodname>call_user_func</methodname>
    <methodparam><type>callable</type><parameter>callback</parameter></methodparam>
    <methodparam rep="repeat"><type>mixed</type><parameter>args</parameter></methodparam>
   </methodsynopsis>

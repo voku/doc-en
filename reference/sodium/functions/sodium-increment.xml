@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>void</type><methodname>sodium_increment</methodname>
+   <type>string</type><methodname>sodium_increment</methodname>
    <methodparam><type>string</type><parameter role="reference">val</parameter></methodparam>
   </methodsynopsis>
   <para>

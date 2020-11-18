@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>curl_multi_remove_handle</methodname>
+   <type class="union"><type>int</type><type>false</type></type><methodname>curl_multi_remove_handle</methodname>
    <methodparam><type>resource</type><parameter>mh</parameter></methodparam>
    <methodparam><type>resource</type><parameter>ch</parameter></methodparam>
   </methodsynopsis>

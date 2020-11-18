@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>session_abort</methodname>
-   <void/>
+   <type class="union"><type>void</type><type>bool</type></type><methodname>session_abort</methodname>
+   <void />
   </methodsynopsis>
   <para>
    <function>session_abort</function> finishes session without saving

@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>substr_replace</methodname>
+   <type class="union"><type>string</type><type>string[]</type></type><methodname>substr_replace</methodname>
    <methodparam><type>mixed</type><parameter>string</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>replacement</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>start</parameter></methodparam>

@@ -19,7 +19,6 @@
    <type>object</type><methodname>mysqli_stmt_get_warnings</methodname>
    <methodparam><type>mysqli_stmt</type><parameter>stmt</parameter></methodparam>
   </methodsynopsis>
-
   &warn.undocumented.func;
 
  </refsect1>

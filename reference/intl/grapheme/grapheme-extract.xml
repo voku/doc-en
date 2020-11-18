@@ -9,7 +9,7 @@
   &reftitle.description;
   <para>&style.procedural;</para>
   <methodsynopsis>
-   <type>string</type><methodname>grapheme_extract</methodname>
+   <type class="union"><type>string</type><type>false</type></type><methodname>grapheme_extract</methodname>
    <methodparam><type>string</type><parameter>haystack</parameter></methodparam>
    <methodparam><type>int</type><parameter>size</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>extract_type</parameter></methodparam>

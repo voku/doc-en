@@ -10,7 +10,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type class="union"><type>string</type><type>false</type></type><methodname>apache_get_version</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Fetch the Apache version.

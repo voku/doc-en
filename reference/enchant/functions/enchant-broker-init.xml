@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>resource</type><methodname>enchant_broker_init</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
 
  </refsect1>

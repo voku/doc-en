@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>preg_replace_callback_array</methodname>
+   <type class="union"><type>string</type><type>string[]</type><type>null</type></type><methodname>preg_replace_callback_array</methodname>
    <methodparam><type>array</type><parameter>patterns_and_callbacks</parameter></methodparam>
    <methodparam><type>mixed</type><parameter>subject</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>limit</parameter><initializer>-1</initializer></methodparam>

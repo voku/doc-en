@@ -10,7 +10,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>tidyNode</type><methodname>tidyNode::getParent</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Returns the parent node of the current node.

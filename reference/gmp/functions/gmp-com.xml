@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>GMP</type><methodname>gmp_com</methodname>
+   <type class="union"><type>resource</type><type>\GMP</type></type><methodname>gmp_com</methodname>
    <methodparam><type>GMP</type><parameter>a</parameter></methodparam>
   </methodsynopsis>
   <para>

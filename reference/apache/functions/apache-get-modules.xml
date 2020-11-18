@@ -10,7 +10,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>array</type><methodname>apache_get_modules</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Get a list of loaded Apache modules.

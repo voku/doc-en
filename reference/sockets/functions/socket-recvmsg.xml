@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>socket_recvmsg</methodname>
+   <type class="union"><type>int</type><type>false</type></type><methodname>socket_recvmsg</methodname>
    <methodparam><type>resource</type><parameter>socket</parameter></methodparam>
    <methodparam><type>array</type><parameter role="reference">message</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer>0</initializer></methodparam>

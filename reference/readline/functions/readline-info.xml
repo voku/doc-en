@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>readline_info</methodname>
+   <type class="union"><type>array</type><type>int</type><type>string</type><type>bool</type><type>null</type></type><methodname>readline_info</methodname>
    <methodparam choice="opt"><type>string</type><parameter>varname</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>newvalue</parameter></methodparam>
   </methodsynopsis>

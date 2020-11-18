@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>array</type><methodname>dba_list</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    <function>dba_list</function> list all open database files.

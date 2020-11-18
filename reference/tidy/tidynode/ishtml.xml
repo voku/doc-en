@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>tidyNode::isHtml</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Tells if the node is an element node, but not the root node of the document.

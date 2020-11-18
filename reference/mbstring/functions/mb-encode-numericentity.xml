@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>mb_encode_numericentity</methodname>
+   <type class="union"><type>string</type><type>false</type><type>null</type></type><methodname>mb_encode_numericentity</methodname>
    <methodparam><type>string</type><parameter>str</parameter></methodparam>
    <methodparam><type>array</type><parameter>convmap</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>encoding</parameter><initializer>mb_internal_encoding()</initializer></methodparam>

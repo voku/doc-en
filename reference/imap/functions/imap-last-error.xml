@@ -8,8 +8,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>imap_last_error</methodname>
-   <void/>
+   <type class="union"><type>string</type><type>false</type></type><methodname>imap_last_error</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Gets the full text of the last <acronym>IMAP</acronym> error message

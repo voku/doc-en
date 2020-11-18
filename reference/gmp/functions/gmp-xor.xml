@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>GMP</type><methodname>gmp_xor</methodname>
+   <type class="union"><type>resource</type><type>\GMP</type></type><methodname>gmp_xor</methodname>
    <methodparam><type>GMP</type><parameter>a</parameter></methodparam>
    <methodparam><type>GMP</type><parameter>b</parameter></methodparam>
   </methodsynopsis>

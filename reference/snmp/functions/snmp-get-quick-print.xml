@@ -11,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>snmp_get_quick_print</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Returns the current value stored in the UCD Library for quick_print.  

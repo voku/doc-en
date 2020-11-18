@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>mb_substitute_character</methodname>
+   <type class="union"><type>bool</type><type>int</type><type>string</type></type><methodname>mb_substitute_character</methodname>
    <methodparam choice="opt"><type>mixed</type><parameter>substchar</parameter><initializer>mb_substitute_character()</initializer></methodparam>
   </methodsynopsis>
   <para>

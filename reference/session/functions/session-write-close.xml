@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>session_write_close</methodname>
-   <void/>
+   <type class="union"><type>void</type><type>bool</type></type><methodname>session_write_close</methodname>
+   <void />
   </methodsynopsis>
   <para>
    End the current session and store session data.

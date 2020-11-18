@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>gmp_rootrem</methodname>
+   <type class="union"><type>array</type><type>\GMP[]</type></type><methodname>gmp_rootrem</methodname>
    <methodparam><type>GMP</type><parameter>a</parameter></methodparam>
    <methodparam><type>int</type><parameter>nth</parameter></methodparam>
   </methodsynopsis>

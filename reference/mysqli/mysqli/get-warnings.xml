@@ -19,7 +19,6 @@
    <type>mysqli_warning</type><methodname>mysqli_get_warnings</methodname>
    <methodparam><type>mysqli</type><parameter>link</parameter></methodparam>
   </methodsynopsis>
-
   &warn.undocumented.func;
  </refsect1>
 

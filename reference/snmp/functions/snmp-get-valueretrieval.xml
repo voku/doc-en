@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>int</type>
    <methodname>snmp_get_valueretrieval</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
  </refsect1>
  

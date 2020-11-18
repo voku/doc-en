@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>mb_list_encodings</methodname>
+   <type>string[]</type><methodname>mb_list_encodings</methodname>
    <void />
   </methodsynopsis>
   <para>

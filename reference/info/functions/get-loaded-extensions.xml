@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>get_loaded_extensions</methodname>
+   <type>string[]</type><methodname>get_loaded_extensions</methodname>
    <methodparam choice="opt"><type>bool</type><parameter>zend_extensions</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>

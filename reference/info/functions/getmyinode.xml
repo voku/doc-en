@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>getmyinode</methodname>
-   <void/>
+   <type class="union"><type>int</type><type>false</type></type><methodname>getmyinode</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Gets the inode of the current script.

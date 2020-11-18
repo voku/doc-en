@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>HashContext</type><methodname>hash_copy</methodname>
+   <type class="union"><type>HashContext</type><type>resource</type></type><methodname>hash_copy</methodname>
    <methodparam><type>HashContext</type><parameter>context</parameter></methodparam>
   </methodsynopsis>
  </refsect1>

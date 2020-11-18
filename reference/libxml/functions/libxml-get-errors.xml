@@ -10,8 +10,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>libxml_get_errors</methodname>
-   <void/>
+   <type>LibXMLError[]</type><methodname>libxml_get_errors</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Retrieve array of errors.

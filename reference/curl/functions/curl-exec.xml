@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>curl_exec</methodname>
+   <type class="union"><type>string</type><type>bool</type></type><methodname>curl_exec</methodname>
    <methodparam><type>resource</type><parameter>ch</parameter></methodparam>
   </methodsynopsis>
   <para>
