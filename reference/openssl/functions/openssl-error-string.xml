@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>openssl_error_string</methodname>
-   <void/>
+   <type class="union"><type>string</type><type>false</type></type><methodname>openssl_error_string</methodname>
+   <void />
   </methodsynopsis>
   <para>
    <function>openssl_error_string</function> returns the last error from the

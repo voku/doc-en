@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>socket_get_option</methodname>
+   <type class="union"><type>mixed</type><type>false</type></type><methodname>socket_get_option</methodname>
    <methodparam><type>resource</type><parameter>socket</parameter></methodparam>
    <methodparam><type>int</type><parameter>level</parameter></methodparam>
    <methodparam><type>int</type><parameter>optname</parameter></methodparam>

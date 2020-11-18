@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>getmypid</methodname>
-   <void/>
+   <type class="union"><type>int</type><type>false</type></type><methodname>getmypid</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Gets the current PHP process ID.

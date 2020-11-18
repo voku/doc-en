@@ -12,7 +12,7 @@
   <para>&style.oop;</para>
   <methodsynopsis role="oop">
    <modifier>public</modifier> <type>mysqli_stmt</type><methodname>mysqli::stmt_init</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>&style.procedural;</para>
   <methodsynopsis>

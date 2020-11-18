@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>session_reset</methodname>
-   <void/>
+   <type class="union"><type>void</type><type>bool</type></type><methodname>session_reset</methodname>
+   <void />
   </methodsynopsis>
   <para>
    <function>session_reset</function> reinitializes a session with

@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>getmygid</methodname>
-   <void/>
+   <type class="union"><type>int</type><type>false</type></type><methodname>getmygid</methodname>
+   <void />
   </methodsynopsis>
   <simpara>
    Gets the group ID of the current script.

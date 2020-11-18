@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>json_last_error_msg</methodname>
-   <void/>
+   <type class="union"><type>string</type><type>false</type></type><methodname>json_last_error_msg</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Returns the error string of the last <function>json_encode</function> or <function>json_decode</function>

@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>mt_rand</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <methodsynopsis>
    <type>int</type><methodname>mt_rand</methodname>

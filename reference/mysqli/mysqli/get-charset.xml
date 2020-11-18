@@ -19,7 +19,6 @@
    <type>object</type><methodname>mysqli_get_charset</methodname>
    <methodparam><type>mysqli</type><parameter>link</parameter></methodparam>
   </methodsynopsis>
-
   <para>
    Returns a character set object providing several properties 
    of the current active character set.

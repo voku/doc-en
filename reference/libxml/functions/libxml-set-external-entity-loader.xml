@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>libxml_set_external_entity_loader</methodname>
+   <type>void</type><methodname>libxml_set_external_entity_loader</methodname>
    <methodparam><type>callable</type><parameter>resolver_function</parameter></methodparam>
   </methodsynopsis>
   <para>

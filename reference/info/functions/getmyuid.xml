@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>int</type><methodname>getmyuid</methodname>
-   <void/>
+   <type class="union"><type>int</type><type>false</type></type><methodname>getmyuid</methodname>
+   <void />
   </methodsynopsis>
   <simpara>
    Gets the user ID of the current script.

@@ -9,7 +9,7 @@
   &reftitle.description;
   <para>&style.procedural;</para>
   <methodsynopsis>
-   <type>int</type><methodname>grapheme_strlen</methodname>
+   <type class="union"><type>int</type><type>false</type><type>null</type></type><methodname>grapheme_strlen</methodname>
    <methodparam><type>string</type><parameter>input</parameter></methodparam>
   </methodsynopsis>
   <para>

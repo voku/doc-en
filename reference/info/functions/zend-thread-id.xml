@@ -10,7 +10,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>zend_thread_id</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    This function returns a unique identifier for the current thread.

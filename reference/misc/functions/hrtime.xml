@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>hrtime</methodname>
+   <type class="union"><type>int[]</type><type>int</type><type>float</type></type><methodname>hrtime</methodname>
    <methodparam choice="opt"><type>bool</type><parameter>get_as_number</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <simpara>

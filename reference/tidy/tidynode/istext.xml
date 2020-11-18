@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>tidyNode::isText</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Tells if the node represents a text (without any markup).

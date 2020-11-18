@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>ob_get_contents</methodname>
-   <void/>
+   <type class="union"><type>string</type><type>false</type></type><methodname>ob_get_contents</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Gets the contents of the output buffer without clearing it.

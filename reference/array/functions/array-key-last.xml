@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>array_key_last</methodname>
+   <type class="union"><type>string</type><type>int</type><type>null</type></type><methodname>array_key_last</methodname>
    <methodparam><type>array</type><parameter>array</parameter></methodparam>
   </methodsynopsis>
   <para>

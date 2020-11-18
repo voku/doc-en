@@ -10,8 +10,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>getcwd</methodname>
-   <void/>
+   <type class="union"><type>string</type><type>false</type></type><methodname>getcwd</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Gets the current working directory.

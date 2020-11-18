@@ -10,7 +10,7 @@
   &reftitle.description;
   <para>&style.oop;</para>
   <methodsynopsis>
-   <modifier>public</modifier> <type>tidyNode</type><methodname>tidy::html</methodname>
+   <modifier>public</modifier> <type class="union"><type>tidyNode</type><type>null</type></type><methodname>tidy::html</methodname>
    <void />
   </methodsynopsis>
   <para>&style.procedural;</para>

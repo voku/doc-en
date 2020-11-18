@@ -8,8 +8,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>get_declared_interfaces</methodname>
-   <void/>
+   <type>string[]</type><methodname>get_declared_interfaces</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Gets the declared interfaces.

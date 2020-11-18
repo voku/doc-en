@@ -14,7 +14,7 @@
   <fieldsynopsis><type>string</type><varname linkend="mysqli.get-server-info">mysqli->server_info</varname></fieldsynopsis>
   <methodsynopsis role="oop">
    <modifier>public</modifier> <type>string</type><methodname>mysqli::get_server_info</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>&style.procedural;</para>
   <methodsynopsis>

@@ -12,7 +12,7 @@
   <para>&style.oop;</para>
   <methodsynopsis role="oop">
    <modifier>public</modifier> <type>bool</type><methodname>mysqli::dump_debug_info</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>&style.procedural;</para>
   <methodsynopsis>

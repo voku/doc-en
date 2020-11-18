@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>get_included_files</methodname>
-   <void/>
+   <type>string[]</type><methodname>get_included_files</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Gets the names of all files that have been included using

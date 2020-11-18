@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>end</methodname>
+   <type class="union"><type>mixed</type><type>false</type></type><methodname>end</methodname>
    <methodparam><type>array</type><parameter role="reference">array</parameter></methodparam>
   </methodsynopsis>
   <para>

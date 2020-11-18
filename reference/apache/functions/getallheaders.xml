@@ -11,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>array</type><methodname>getallheaders</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Fetches all HTTP headers from the current request.

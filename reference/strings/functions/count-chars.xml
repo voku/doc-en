@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>count_chars</methodname>
+   <type class="union"><type>int[]</type><type>string</type></type><methodname>count_chars</methodname>
    <methodparam><type>string</type><parameter>string</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>mode</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>

@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>http_response_code</methodname>
+   <type>int</type><methodname>http_response_code</methodname>
    <methodparam choice="opt"><type>int</type><parameter>response_code</parameter></methodparam>
   </methodsynopsis>
   <para>

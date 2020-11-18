@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>call_user_func_array</methodname>
+   <type class="union"><type>mixed</type><type>false</type></type><methodname>call_user_func_array</methodname>
    <methodparam><type>callable</type><parameter>callback</parameter></methodparam>
    <methodparam><type>array</type><parameter>param_arr</parameter></methodparam>
   </methodsynopsis>

@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>tidyNode::isAsp</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Tells whether the current node is ASP.

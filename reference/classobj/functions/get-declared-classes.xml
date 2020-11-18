@@ -8,8 +8,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>array</type><methodname>get_declared_classes</methodname>
-   <void/>
+   <type>string[]</type><methodname>get_declared_classes</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Gets the declared classes.

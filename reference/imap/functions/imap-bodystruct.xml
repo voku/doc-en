@@ -8,7 +8,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>object</type><methodname>imap_bodystruct</methodname>
+   <type class="union"><type>stdClass</type><type>false</type></type><methodname>imap_bodystruct</methodname>
    <methodparam><type>resource</type><parameter>imap_stream</parameter></methodparam>
    <methodparam><type>int</type><parameter>msg_number</parameter></methodparam>
    <methodparam><type>string</type><parameter>section</parameter></methodparam>

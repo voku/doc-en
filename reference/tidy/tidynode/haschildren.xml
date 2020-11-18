@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>tidyNode::hasChildren</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Tells if the node has children.

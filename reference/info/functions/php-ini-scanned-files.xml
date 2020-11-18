@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>php_ini_scanned_files</methodname>
-   <void/>
+   <type class="union"><type>string</type><type>false</type></type><methodname>php_ini_scanned_files</methodname>
+   <void />
   </methodsynopsis>
   <para>
    <function>php_ini_scanned_files</function> returns a comma-separated

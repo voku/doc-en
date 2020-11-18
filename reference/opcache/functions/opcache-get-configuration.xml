@@ -10,7 +10,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type class="union"><type>array</type><type>false</type></type><methodname>opcache_get_configuration</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    This function returns configuration information about the cache instance

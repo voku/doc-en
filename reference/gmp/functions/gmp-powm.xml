@@ -9,7 +9,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>GMP</type><methodname>gmp_powm</methodname>
+   <type class="union"><type>resource</type><type>\GMP</type></type><methodname>gmp_powm</methodname>
    <methodparam><type>GMP</type><parameter>base</parameter></methodparam>
    <methodparam><type>GMP</type><parameter>exp</parameter></methodparam>
    <methodparam><type>GMP</type><parameter>mod</parameter></methodparam>

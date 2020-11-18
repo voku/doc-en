@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>pg_insert</methodname>
+   <type class="union"><type>resource</type><type>string</type><type>bool</type></type><methodname>pg_insert</methodname>
    <methodparam><type>resource</type><parameter>connection</parameter></methodparam>
    <methodparam><type>string</type><parameter>table_name</parameter></methodparam>
    <methodparam><type>array</type><parameter>assoc_array</parameter></methodparam>

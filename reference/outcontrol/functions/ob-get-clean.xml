@@ -9,8 +9,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>string</type><methodname>ob_get_clean</methodname>
-   <void/>
+   <type class="union"><type>string</type><type>false</type></type><methodname>ob_get_clean</methodname>
+   <void />
   </methodsynopsis>
   <para>
    Gets the current buffer contents and delete current output buffer.

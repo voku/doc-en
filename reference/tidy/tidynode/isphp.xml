@@ -9,7 +9,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>tidyNode::isPhp</methodname>
-   <void/>
+   <void />
   </methodsynopsis>
   <para>
    Tells if the node is PHP.
